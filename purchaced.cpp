@@ -11,7 +11,7 @@ purchaced::purchaced(QString ar[],int s,QString b,QString t,QWidget *parent) :
     p=s;
     ui->setupUi(this);
     for(int i=0;i<s;i++)
-        ui->lineEdit->setText(ui->lineEdit->text()+"\n"+ar[i]);
+        ui->label_5->setText(ui->label_5->text()+ar[i]+"\n");
     ui->label_2->setText("Total: "+t);
     ui->label_3->setText("Account Balance: "+b);
 }
